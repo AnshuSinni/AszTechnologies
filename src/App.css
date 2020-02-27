@@ -1,0 +1,76 @@
+ul.header {
+  border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header li a {
+  color: grey;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+
+.creatButton {
+  margin-bottom: 30PX;
+}
+
+td {
+  color: grey;
+  font-size: 20px;
+}
+
+td span {
+  color: cornflowerblue;
+  font-size: 22px;
+}
+
+.edit {
+  padding-right: 15px;
+  border-right: 1px solid rgb(211, 205, 205);
+}
+
+.delete {
+  padding-left: 15px;
+}
+
+span {
+  margin-right: 10px;
+}
+
+input {
+  margin: 10px;
+}
+
+.page-numbers {
+  float: right;
+}
+
+.page-number, .prev, .next{
+  display: inline;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.page-number {
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+
+}
+
+.disabled{
+  cursor: not-allowed;
+}
